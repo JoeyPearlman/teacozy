@@ -1,0 +1,129 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  z-index: 5;
+  background-color: black;
+
+}
+
+header img {
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  flex-grow: 0;
+  padding-left: 10px;
+}
+
+ nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav span {
+  justify-content: flex-end;
+}
+nav span a{
+  padding: 10px 30px;
+  text-decoration: underline;
+  color: seashell;
+}
+
+.pushDown {
+  margin-top: 70px;
+}
+
+.bigImage {
+  display: flex;
+background-image: url(../images/img-mission-background.jpg);
+height: 700px;
+width: 1200px
+margin: 0 auto;
+float: none;
+justify-content: center;
+}
+
+.bigImage .imageText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  background-color: black;
+}
+.belowImage{
+  text-align: center;
+}
+
+.itemWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+}
+
+.item span {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contactImage {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  display: cover;
+}
+
+.contactImage h3 {
+    padding-top:  70px;
+}
+
+.contactWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  margin-right: 40px;
+  margin-top: 15px;
+  opacity: 1;
+}
+
+.contactInfo {
+  text-align: center;
+}
+
+footer{
+  text-align: left;
+}
